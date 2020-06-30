@@ -13,7 +13,7 @@ if (isset($_GET['id'])) {
     }
     
     $_SESSION['message']='Se ha eliminado correctamente';
-    $_SESSION['message_type']='warning';
+    $_SESSION['message_type']='danger';
 
      //para redireccionar 
    header("Location: index.php" );

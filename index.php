@@ -18,10 +18,10 @@
             <div class="card card-body">
                 <form action="add.php" method="POST">
                     <div class="form-group">
-                        <input type="text" name="title" class="form-control" placeholder="Ingresa el titulo" autofocus  > 
+                        <input type="text" name="title" class="form-control" placeholder="Ingresa el titulo" required=true autofocus  > 
                     </div>
                     <div class="form-group">
-                        <textarea name="description"  rows="2" class="form-control" placeholder="Ingresa la descripción" ></textarea>
+                        <textarea name="description"  rows="2" class="form-control" placeholder="Ingresa la descripción" required=true ></textarea>
                     </div>
                     <input type="submit" class="btn btn-success btn-block" name="guardar" value="Agregar" >
                 </form>
